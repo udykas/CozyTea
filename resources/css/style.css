@@ -1,7 +1,11 @@
 body{
-  background-color: black;
+ background-color: black;
   margin: 0;
+  font-family: Helvetica;
+  color: seashell
 }
+
+/*Header begins*/
 
 header{
   display: flex;
@@ -14,6 +18,8 @@ header{
   height: 69px;
   border-bottom: 1px solid seashell;
   opacity: 0.9;
+  z-index: 5;
+  background-color: black;
 }
 
 .image img{
@@ -30,3 +36,124 @@ header{
 .header-nav li a{
   color: seashell;
 }
+
+/*Header Ends*/
+/*Main Content Begins*/
+.main-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*First box Begins*/
+
+.first-box{
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-statement{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: seashell;
+  width: 1200px;
+  margin-top: 80px;
+  background-color: black;
+}
+
+/*First Box Ends*/
+/*Second Box Begins*/
+
+.second-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 1000px;
+}
+
+.tea{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.tea-types{
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  flex-wrap: wrap;
+}
+
+.tea.berry{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tea.berry img{
+  width: 300px;
+  height: 200px;
+  margin: 15px;
+}
+
+.tea.rum{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tea.rum img{
+  width: 300px;
+  height: 200px;
+  margin: 15px;
+}
+
+.tea.donuts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tea.donuts img{
+  width: 300px;
+  height: 200px;
+  margin: 15px;
+}
+
+.tea.myrtle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tea.myrtle img{
+  width: 300px;
+  height: 200px;
+  margin: 15px;
+}
+
+.tea.bizarre{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tea.bizarre img{
+  width: 300px;
+  height: 200px;
+  margin: 15px;
+}
+
+/*Second Box Ends*/
