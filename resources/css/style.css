@@ -2,7 +2,8 @@ body{
  background-color: black;
   margin: 0;
   font-family: Helvetica;
-  color: seashell
+  color: seashell;
+  font-size: 22px;
 }
 
 /*Header begins*/
@@ -10,7 +11,6 @@ body{
 header{
   display: flex;
   font-family: Helvetica;
-  font-size: 22px;
   position: fixed;
   align-items: center;
   justify-content: space-between;
@@ -81,7 +81,6 @@ header{
 }
 
 .tea{
-  font-size: 22px;
   font-weight: bold;
 }
 
@@ -165,5 +164,27 @@ header{
   width: 300px;
   margin: 0px 20px;
   background-color: black;
+}
+
+/*Third Box Ends*/
+/*Footer Begins*/
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.contact h5{
+  font-weight: bold;
   font-size: 22px;
 }
+
+footer p{
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+/*Footer Ends*/
