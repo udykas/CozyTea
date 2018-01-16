@@ -77,11 +77,18 @@ header{
   justify-content: flex-start;
   align-items: center;
   width: 1000px;
+  margin-bottom: 50px;
 }
 
 .tea{
   font-size: 22px;
   font-weight: bold;
+}
+
+.tea img{
+  width: 300px;
+  height: 200px;
+  margin: 15px;
 }
 
 .tea-types{
@@ -98,23 +105,11 @@ header{
   align-items: center;
 }
 
-.tea.berry img{
-  width: 300px;
-  height: 200px;
-  margin: 15px;
-}
-
 .tea.rum{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.tea.rum img{
-  width: 300px;
-  height: 200px;
-  margin: 15px;
 }
 
 .tea.donuts{
@@ -124,23 +119,11 @@ header{
   align-items: center;
 }
 
-.tea.donuts img{
-  width: 300px;
-  height: 200px;
-  margin: 15px;
-}
-
 .tea.myrtle{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.tea.myrtle img{
-  width: 300px;
-  height: 200px;
-  margin: 15px;
 }
 
 .tea.bizarre{
@@ -150,10 +133,37 @@ header{
   align-items: center;
 }
 
-.tea.bizarre img{
-  width: 300px;
-  height: 200px;
-  margin: 15px;
+/*Second Box Ends*/
+/*Third Box Begins*/
+
+.third-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 570px;
+  width: 1200px;
 }
 
-/*Second Box Ends*/
+.third-box h2{
+  margin-top: 80px;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.locations-box{
+  display: flex;
+  justify-content: space-around;
+}
+
+.location{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: 0px 20px;
+  background-color: black;
+  font-size: 22px;
+}
